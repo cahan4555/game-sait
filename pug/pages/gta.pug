@@ -1,0 +1,22 @@
+extends ../layouts/pages-layout 
+block title 
+
+  - var title="GTA 5"
+
+block content 
+
+   header 
+    .dota-box 
+      .container 
+        .row 
+          .col-xxl-6.col-xl-6.col-lg-6.col-md-12 
+           // kolonka dla texsta 
+           .hero-section.pt-5 
+             h1.hero-title.text-white.m-0 Dota 2
+             p.hero-desc.text-white.m-5 
+               |   Grand Theft Auto 5 — легендарное продолжение популярной серии Grand Theft Auto.
+               |   Местом действия стал город Лос-Сантос, полюбившийся ещё в GTA: San Andreas. 
+             p.hero-desc.text-white 
+               |Впервые игра расскажет историю сразу трех персонажей: Майкла, Тревора и Франклина, между которыми вы сможете переключаться в любое время.
+      .img-mobile
+         img(src='./img/gta.png' alt="")
